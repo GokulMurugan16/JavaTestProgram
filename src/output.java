@@ -59,11 +59,10 @@ public class output {
 //		}
 //		
 		
-		System.out.println("Enter the radius of the circle");
-		float radius = input.nextFloat();
-		Circle c = new Circle();
-		System.out.println("Area of the circle : "+ c.area(radius));
-		System.out.println("Circumference of the circle : "+ c.circumference(radius));
+		System.out.println("Enter the radius of the circle :");
+		Circle.radius = input.nextFloat();
+		System.out.println("Area of the circle : "+ Math.round(Circle.area() * 100.0) / 100.0);
+		System.out.println("Circumference of the circle : "+  Math.round(Circle.circumference() * 100.0) / 100.0);
 		
 		
 	}
