@@ -1,8 +1,8 @@
 
 public class AccountInfo {
 	
-	int accountNumber;
-	float balance;
+	String accountNumber;
+	double balance;
 	int pin;
 	
 	public void amountAmount(int amount) {
