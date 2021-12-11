@@ -4,9 +4,25 @@ public class AccountInfo {
 	String accountNumber;
 	double balance;
 	int pin;
+	static int minimumBalance = 500; 
 	
-	public void amountAmount(int amount) {
-		if (balance > 0 && balance > amount) {
+	public AccountInfo() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public AccountInfo(String accountNumber, double balance, int pin) {
+		super();
+		this.accountNumber = accountNumber;
+		this.balance = balance;
+		this.pin = pin;
+	}
+
+	public int getMinimumBalance() {
+		return minimumBalance;
+	}
+	
+	public void depositAmount(int amount) {
+		if (balance != 0) {
 			balance = balance+amount;
 		}
 		else {
@@ -22,5 +38,6 @@ public class AccountInfo {
 			System.out.println("Invalid Amount");
 		}
 	}
-	
+
+		
 }
