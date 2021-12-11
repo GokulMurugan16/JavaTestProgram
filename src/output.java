@@ -5,8 +5,9 @@ public class output {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
-		AccountInfo a = new AccountInfo();
 		
+//		AccountInfo a = new AccountInfo();
+//		
 //		a.pin = 1234;
 //		a.balance = 50000.00;
 //		
