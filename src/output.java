@@ -58,23 +58,20 @@ public class output {
 //		else {
 //			System.out.println("Incorrect Pin");
 //		}
-//		
-		
+//			
 //		System.out.println("Enter the radius of the circle :");
 //		Circle.radius = input.nextFloat();
 //		System.out.println("Area of the circle : "+ Math.round(Circle.area() * 100.0) / 100.0);
 //		System.out.println("Circumference of the circle : "+  Math.round(Circle.circumference() * 100.0) / 100.0);
 		
 		
-		JuniorSavingsAccount JSA = new JuniorSavingsAccount("12345", 5000, 1234, "Hello");
-		
+		JuniorSavingsAccount JSA = new JuniorSavingsAccount("12345", 5000, 1234, "Goku");
 		System.out.println("Minimum Balance : " + JSA.getMinimumBalance());
 		JSA.depositAmount(5025);
 		System.out.println("Account Number: "+JSA.accountNumber);
 		System.out.println("Account Balance: "+JSA.balance);
 		System.out.println("Account Guardian Name: "+JSA.GuardianName);
-		
-		
+				
 	}
 
 }
