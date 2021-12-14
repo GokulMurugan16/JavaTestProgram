@@ -1,9 +1,7 @@
 import java.util.Scanner;
-
-import object.defaultObject;
 import object.newObject;
 
-public class output {
+public class output extends newObject{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -74,8 +72,7 @@ public class output {
 //		System.out.println("Account Balance: "+JSA.balance);
 //		System.out.println("Account Guardian Name: "+JSA.GuardianName);
 		
-		defaultObject dob = new defaultObject();
-		dob.
+		
 		
 		
 	}
